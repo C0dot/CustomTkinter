@@ -2,7 +2,7 @@ from .theme_manager import ThemeManager
 
 # load default blue theme
 try:
-    ThemeManager.load_theme("blue")
+    ThemeManager.load_theme("green")
 except FileNotFoundError as err:
     raise FileNotFoundError(f"{err}\nThe .json theme file for CustomTkinter could not be found.\n" +
                             f"If packaging with pyinstaller was used, have a look at the wiki:\n" +
